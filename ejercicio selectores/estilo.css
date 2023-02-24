@@ -1,0 +1,13 @@
+#boton::after{
+    content: 'PASAR POR ENCIMA';
+}
+
+#boton:hover {
+    color: white;
+    background-color: limegreen;
+    content: 'HECHO';
+}
+
+#hecho::after {
+    content: none;
+}
